@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C2E1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <section id="logo"><img src="./imgUP.jpg" width="50px" height="50px"></section>
+            <section id="title"><h1>Ingeniería en desarrollo de software.</h1></section>
+        </header>
+
+        <main>
+            <section id="form">
+                <table>
+                    <tr>
+                        <td colspan="2"><label id="txtEj1">Ejersicio 1</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="text" placeholder="Introduzca un texto" id="entry"></td>
+                    </tr>
+                    <tr>
+                        <td align="center"><input type="submit" value="Agregar texto" id="btnAdd" onclick="addText()"></td>
+                        <td align="center"><input type="submit" value="Imprimir" id="btnPrint" onclick="fnPrint(string2)"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><label id="label"></label></td>
+                    </tr>
+                </table>
+            </section>
+            <section id="imgLeft">
+                <center><img src="./imgArbol.jpg" width="480px" height="860px"></center>
+            </section>
+        </main>
+
+        <footer>
+            <section id="date"></section>
+        </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
